@@ -1,8 +1,9 @@
 # sqlcasestudy_Flights
 
-This is a fantastic collection of queries. You’ve demonstrated everything from basic aggregations and multi-table joins to complex window functions and Common Table Expressions (CTEs).
+This project is a collection of SQL queries designed to analyze a simulated aviation database.
+The goal is to answer real-world airline business questions related to operations, passengers, and revenue.
 
-Here is a professional, structured **README.md** file for your GitHub repository. It’s designed to show off your logic and technical skills to anyone viewing your profile.
+
 
 ---
 
@@ -15,6 +16,7 @@ This project contains a comprehensive set of SQL queries designed to analyze a s
 ## 🛠️ Tech Stack
 
 * **Database:** MySQL
+* **Language:** SQL
 * **Key SQL Concepts:**
 * **CTEs (Common Table Expressions):** For modular and readable query logic.
 * **Window Functions:** `RANK()` and `PARTITION BY` for complex ranking.
@@ -48,6 +50,9 @@ This project contains a comprehensive set of SQL queries designed to analyze a s
 ---
 
 ## 🚀 Featured Query Logic
+
+Goal: Identify the airline operating the most flights from each airport.
+Method: Aggregate flight counts per airline and rank them using a window function.
 
 One of the most complex challenges in this study was identifying the "Top Airline per Airport." This required a nested aggregation and a window function:
 
